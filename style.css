@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding:8px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:cadetblue;
+    min-height: 100vh;
+    border:10px solid hwb(0 4% 96%);
+}
+.content{
+     max-width: 900px;
+     margin:0 auto;
+}
+.top_section{
+    
+    margin-top: 100px;
+    display:flex;
+    padding-right: 100px;
+
+    margin-block-start:90px;
+    
+}
+.top_section h1{
+    margin-block-start: 200px;
+    margin-left:50px;
+    font-size: 50px;
+    font-weight: bold;
+    color:black;
+    
+}
+.top_section h2{
+    margin-left:50px;
+    font-size: 30px;
+    font-weight: 40px;
+    color:black;
+}
+.image_container{
+    
+    border-radius:50%;
+    
+    
+}
+
+.image_container img{
+   margin-left:200px;
+   width: 350px;
+   height:400px;
+   border:5px solid black;
+
+}
+.about_section{
+
+    margin-top: 50px;
+}
+
+
+.about_section p{
+    font-size: 20px;
+    margin-left:200px;
+    text-align: justify;
+    
+}
+.about_section h3{
+    margin-left: 200px;
+    font-size:30px;
+}
+.about_section h4{
+    font-size:30px;
+    margin-left:200px;
+}
+.about_section h5{
+    font-size:30px;
+    margin-left:200px;
+}
+.award_section h6{
+    font-size:30px;
+    margin-left:200px;
+}
+.award_section ul{
+    font-size:20px;
+    margin-left:200px;
+    text-align: justify;
+}
